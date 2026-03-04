@@ -20,3 +20,5 @@ while tentativas < max_tentativas:
         break
     else:
         print( f"você tem {max_tentativas - tentativas} tentativas restantes")
+
+#teste de codigo
