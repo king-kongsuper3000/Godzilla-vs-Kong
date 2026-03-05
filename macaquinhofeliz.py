@@ -20,9 +20,9 @@ while tentativas < max_tentativas:
     # --- ADIÇÃO 3: Sistema de proximidade (Dica extra) ---
     distancia = abs(palpite - numero_secreto)
     if distancia <= 5 and palpite != numero_secreto:
-        print("🔥 Você está MUITO perto!")
+        print("Você está MUITO perto!")
     elif distancia > 20:
-        print("❄️ Está meio frio por aqui...")
+        print("Está meio frio por aqui...")
 
     if palpite < numero_secreto:
         print("quase la! tente um numero maior")
@@ -32,7 +32,7 @@ while tentativas < max_tentativas:
         print(f"parabens! você acertou o numero em {tentativas} tentativas")
         # --- ADIÇÃO 4: Feedback de performance ---
         if tentativas < recorde:
-            print("Novo Recorde Pessoal! 🏆")
+            print("Novo Recorde Pessoal!")
         break
 
     if tentativas == max_tentativas:
